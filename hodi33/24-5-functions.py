@@ -46,13 +46,44 @@
 # Sample String : "1234abcd"
 # Expected Output : "dcba4321"
 
+
+# def rev_word():
+#     word = input('enter str')
+#     # word = word[::-1]
+#     # return word
+#     print(word[::-1])
+
+
 # Write a Python function to check whether a
 # number falls within a given range.
 # the function must receive 3 args
 # value  max min        3   5 9    5   -9   11
-#
-# max    value     min
 
+# x = int(input('please enter the value : '))
+# un = int(input('please enter under limit : '))
+# up = int(input('please enter upper limit : '))
+#
+#
+# def check_in_range(x, start, end):
+#     return start <= x <= end
+#
+#
+# print(check_in_range(x, un, up))
 
 # Write a Python program to detect
 # the number of local variables declared in a function.
+
+g = 77
+x = 77
+
+
+def foo():
+    a = 'hodi'
+    b = 'love pizza'
+    g = 66
+
+    print(a, b, x, g)
+    print(foo.__code__.co_nlocals)
+
+
+foo()
