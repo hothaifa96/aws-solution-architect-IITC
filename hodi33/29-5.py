@@ -28,13 +28,15 @@
 #     return reversed_string
 #
 # #5
-# def calculate_factorial(n):
-#     factorial = 1
-#     if not isinstance(n, int) or n < 0:
-#         raise ValueError("Input must be a non-negative integer.")
-#     for i in range(1, n + 1):
-#         factorial *= i
-#     return factorial
+def calculate_factorial(n):
+    factorial = 1
+    if not isinstance(n, int) or n < 0:
+        raise ValueError("Input must be a non-negative integer.")
+    for i in range(1, n + 1):
+        factorial *= i
+    return factorial
+
+
 #
 # #6
 # def check_number_in_range(number, lower_bound, upper_bound):
@@ -74,9 +76,36 @@
 #
 
 
-# 12
-# s1 = input('please enter word')
-# s1 = s1.lower().replace(' ', '')
+# # 12
+# def check_palindrome():
+#     s1 = input('please enter word')
+#     s1 = s1.lower().replace(' ', '')
 #
-# if s1 == s1[::-1]:
-#     print('found it')
+#     if s1 == s1[::-1]:
+#         return 'found it'
+
+
+# 13
+
+# n = 5
+# print(1, 4, 6, 4, 1)
+# n = 4
+# print(1, 3, 3, 1)
+# n = 6
+# print(1, 5,10,10,5, 1)
+
+
+# pascal = n! / ((n - r)! * r!)
+def pascal(n):
+    for i in range(n):
+        # for k in range(n-i+1):
+        #     print(' ',end='')
+        for x in range(i+1):
+            print(calculate_factorial(i)
+                  //
+                  (calculate_factorial(x)*calculate_factorial(i-x)),
+                  end=' ')
+        print()
+
+
+pascal(5)
