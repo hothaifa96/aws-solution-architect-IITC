@@ -1,0 +1,6 @@
+truck : A small wheel or roller, specifically the wheel of a gun carriage.
+
+aws : An instance of aw.
+
+pizza : A baked Italian dish of a thinly rolled bread dough crust typically topped before baking with tomato sauce, cheese and other ingredients such as meat, vegetables or fruit
+

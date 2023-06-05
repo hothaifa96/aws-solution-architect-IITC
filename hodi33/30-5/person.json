@@ -1,0 +1,10 @@
+{
+    "name":"saar",
+    "salary": 90000,
+    "address": {
+        "city":"lod",
+        "street": "hagiiboor 5",
+        "zip code": 195000
+    },
+    "single": true
+}
