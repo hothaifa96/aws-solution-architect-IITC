@@ -22,4 +22,3 @@ print( 'Saar piZZa'.title().lower() )
 print( 'Saar piZZA'.lower().count('a') )
 print( 'Saar piZZA'.replace('S',':)').replace('Z','W') )
 print( 'Saar piZZa'.startswith('a'))
-Ω

@@ -26,3 +26,8 @@ l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 a = lambda b: b**2
 
 c= a(15)
+
+l1.sort(lambda a,b : a-b)
+
+
+
